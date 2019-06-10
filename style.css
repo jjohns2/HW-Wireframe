@@ -27,23 +27,28 @@ nav {
     margin-bottom: 20px;
 }
 section {
+    position: relative;
     float: left;
     width: 495px;
     background: #ebebeb;
-    height: 250px;
+    height: 280px;
     margin-bottom: 20px;
     padding: 40px;
+    overflow: hidden;
+    text-align: center;
 }
 
 article {
-    margin: 0 auto;
+    position: absolute;
     background: #777;
     color: #ebebeb;
-    width: 200px;
-    height: 180px;
-    width: 450px;
+    height: 190px;
+    width: 475px;
     padding: 20px;
-    float: left;
+    margin-top: 40px;
+    right: 2%;
+    left: 2%;
+    display: inline-block;
 }
 
 footer {
@@ -57,10 +62,10 @@ aside {
     float: right;
     color: #777;
     background: #ebebeb;
-    width: 425px;
-    height: 250px;
+    width: 440px;
+    height: 280px;
     margin-bottom: 20px;
-    padding: 40px;
+    padding: 20px;
 }
 
 a {
@@ -75,18 +80,19 @@ a {
 }
 
 h3 {
-    margin: 0 auto;
+    margin: auto;
     color: #777;
     background: #ebebeb;
-    width: 360px;
+    width: 380px;
     padding: 10px;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 #articleparagraph {
     margin: 0 auto;
     color: #777;
     background: #ebebeb;
-    width: 360px;
+    width: 380px;
     padding: 10px;
 }
