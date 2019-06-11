@@ -10,6 +10,7 @@ body {
     font-size: 18px;
     margin: auto;
     text-align: center;
+    overflow: auto;
 }
 
 h1 {
@@ -34,7 +35,6 @@ section {
     height: 280px;
     margin-bottom: 20px;
     padding: 40px;
-    overflow: hidden;
     text-align: center;
 }
 
